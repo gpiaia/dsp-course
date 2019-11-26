@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(790,280)" to="(970,280)"/>
+    <wire from="(300,490)" to="(360,490)"/>
+    <wire from="(230,530)" to="(230,660)"/>
+    <wire from="(50,220)" to="(110,220)"/>
+    <wire from="(1030,140)" to="(1030,210)"/>
+    <wire from="(450,810)" to="(500,810)"/>
+    <wire from="(80,280)" to="(80,290)"/>
+    <wire from="(600,680)" to="(600,810)"/>
+    <wire from="(460,710)" to="(640,710)"/>
+    <wire from="(930,250)" to="(930,380)"/>
+    <wire from="(90,560)" to="(270,560)"/>
+    <wire from="(80,660)" to="(130,660)"/>
+    <wire from="(970,250)" to="(970,280)"/>
+    <wire from="(250,530)" to="(250,550)"/>
+    <wire from="(90,480)" to="(90,560)"/>
+    <wire from="(500,660)" to="(500,810)"/>
+    <wire from="(800,400)" to="(800,430)"/>
+    <wire from="(130,510)" to="(130,660)"/>
+    <wire from="(640,680)" to="(640,710)"/>
+    <wire from="(720,400)" to="(720,430)"/>
+    <wire from="(210,530)" to="(210,550)"/>
+    <wire from="(460,630)" to="(460,710)"/>
+    <wire from="(910,250)" to="(910,270)"/>
+    <wire from="(830,230)" to="(830,380)"/>
+    <wire from="(270,530)" to="(270,560)"/>
+    <wire from="(200,270)" to="(240,270)"/>
+    <wire from="(790,200)" to="(790,280)"/>
+    <wire from="(580,680)" to="(580,700)"/>
+    <wire from="(620,680)" to="(620,700)"/>
+    <wire from="(120,380)" to="(220,380)"/>
+    <wire from="(800,430)" to="(820,430)"/>
+    <wire from="(80,200)" to="(110,200)"/>
+    <wire from="(760,180)" to="(760,220)"/>
+    <wire from="(720,440)" to="(720,480)"/>
+    <wire from="(720,430)" to="(740,430)"/>
+    <wire from="(60,460)" to="(60,500)"/>
+    <wire from="(50,270)" to="(200,270)"/>
+    <wire from="(430,610)" to="(430,650)"/>
+    <wire from="(60,500)" to="(60,550)"/>
+    <wire from="(150,490)" to="(160,490)"/>
+    <wire from="(430,650)" to="(430,700)"/>
+    <wire from="(290,210)" to="(560,210)"/>
+    <wire from="(760,220)" to="(760,270)"/>
+    <wire from="(850,210)" to="(860,210)"/>
+    <wire from="(720,400)" to="(800,400)"/>
+    <wire from="(750,810)" to="(830,810)"/>
+    <wire from="(520,640)" to="(530,640)"/>
+    <wire from="(800,440)" to="(800,490)"/>
+    <wire from="(220,250)" to="(220,380)"/>
+    <wire from="(430,650)" to="(490,650)"/>
+    <wire from="(60,500)" to="(120,500)"/>
+    <wire from="(790,280)" to="(790,290)"/>
+    <wire from="(90,560)" to="(90,570)"/>
+    <wire from="(80,280)" to="(260,280)"/>
+    <wire from="(460,710)" to="(460,720)"/>
+    <wire from="(560,140)" to="(560,210)"/>
+    <wire from="(70,380)" to="(120,380)"/>
+    <wire from="(760,220)" to="(820,220)"/>
+    <wire from="(830,380)" to="(930,380)"/>
+    <wire from="(80,200)" to="(80,280)"/>
+    <wire from="(580,700)" to="(620,700)"/>
+    <wire from="(500,810)" to="(600,810)"/>
+    <wire from="(200,250)" to="(200,270)"/>
+    <wire from="(120,230)" to="(120,380)"/>
+    <wire from="(240,250)" to="(240,270)"/>
+    <wire from="(260,250)" to="(260,280)"/>
+    <wire from="(210,550)" to="(250,550)"/>
+    <wire from="(220,380)" to="(830,380)"/>
+    <wire from="(360,430)" to="(720,430)"/>
+    <wire from="(130,660)" to="(230,660)"/>
+    <wire from="(800,440)" to="(820,440)"/>
+    <wire from="(760,270)" to="(910,270)"/>
+    <wire from="(560,140)" to="(1030,140)"/>
+    <wire from="(90,480)" to="(120,480)"/>
+    <wire from="(750,450)" to="(750,810)"/>
+    <wire from="(600,810)" to="(750,810)"/>
+    <wire from="(830,450)" to="(830,810)"/>
+    <wire from="(460,630)" to="(490,630)"/>
+    <wire from="(720,440)" to="(740,440)"/>
+    <wire from="(50,180)" to="(50,220)"/>
+    <wire from="(670,640)" to="(700,640)"/>
+    <wire from="(60,550)" to="(210,550)"/>
+    <wire from="(430,700)" to="(580,700)"/>
+    <wire from="(1000,210)" to="(1030,210)"/>
+    <wire from="(790,200)" to="(820,200)"/>
+    <wire from="(50,220)" to="(50,270)"/>
+    <wire from="(140,210)" to="(150,210)"/>
+    <wire from="(360,430)" to="(360,490)"/>
+    <wire from="(720,490)" to="(800,490)"/>
+    <comp lib="4" loc="(850,430)" name="Register">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(90,570)" name="Ground"/>
+    <comp lib="0" loc="(50,180)" name="Power"/>
+    <comp lib="4" loc="(290,210)" name="RAM">
+      <a name="addrWidth" val="16"/>
+      <a name="dataWidth" val="16"/>
+    </comp>
+    <comp lib="0" loc="(460,720)" name="Ground"/>
+    <comp lib="0" loc="(430,610)" name="Power"/>
+    <comp lib="4" loc="(520,640)" name="Counter">
+      <a name="width" val="16"/>
+      <a name="max" val="0x6"/>
+      <a name="ongoal" val="stay"/>
+    </comp>
+    <comp lib="0" loc="(450,810)" name="Clock"/>
+    <comp lib="4" loc="(770,430)" name="Register">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(760,180)" name="Power"/>
+    <comp lib="0" loc="(700,640)" name="Splitter">
+      <a name="fanout" val="16"/>
+      <a name="incoming" val="16"/>
+    </comp>
+    <comp lib="6" loc="(209,111)" name="Text">
+      <a name="text" val="RAM que contem os dados de entrada do sistema"/>
+    </comp>
+    <comp lib="4" loc="(670,640)" name="RAM">
+      <a name="addrWidth" val="16"/>
+      <a name="dataWidth" val="16"/>
+    </comp>
+    <comp lib="4" loc="(300,490)" name="RAM">
+      <a name="addrWidth" val="16"/>
+      <a name="dataWidth" val="16"/>
+    </comp>
+    <comp lib="0" loc="(80,290)" name="Ground"/>
+    <comp lib="6" loc="(1018,120)" name="Text">
+      <a name="text" val="para ler a imagem, usar função no matlab 'logisim2vector'"/>
+    </comp>
+    <comp lib="4" loc="(150,490)" name="Counter">
+      <a name="width" val="16"/>
+      <a name="max" val="0x6"/>
+      <a name="ongoal" val="stay"/>
+    </comp>
+    <comp lib="0" loc="(80,660)" name="Clock"/>
+    <comp lib="0" loc="(950,250)" name="Ground"/>
+    <comp lib="0" loc="(70,380)" name="Clock"/>
+    <comp lib="6" loc="(988,97)" name="Text">
+      <a name="text" val="RAM que contem os dados de saída do sistema"/>
+    </comp>
+    <comp lib="4" loc="(140,210)" name="Counter">
+      <a name="width" val="16"/>
+      <a name="max" val="0x300"/>
+    </comp>
+    <comp lib="0" loc="(60,460)" name="Power"/>
+    <comp lib="6" loc="(248,135)" name="Text">
+      <a name="text" val="para gerar vetor imagem, usar função no matlab 'vector2logsim'"/>
+    </comp>
+    <comp lib="4" loc="(1000,210)" name="RAM">
+      <a name="addrWidth" val="16"/>
+      <a name="dataWidth" val="16"/>
+    </comp>
+    <comp lib="0" loc="(790,290)" name="Ground"/>
+    <comp lib="4" loc="(850,210)" name="Counter">
+      <a name="width" val="16"/>
+      <a name="max" val="0x300"/>
+    </comp>
+  </circuit>
+</project>
